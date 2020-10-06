@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Prayaas | to make change</title>
+    <link rel="icon" href="icons/heartHand.png" />
+    <link rel="stylesheet" href="css/don2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Prayaas Donation</h2>
+      </div>
+      <form id="form" class="form" onsubmit="return validate()">
+        <div class="form-control">
+          <label for="username">Name</label>
+          <input
+            type="text"
+            placeholder="Rahul Maurya"
+            id="name"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input
+            type="text"
+            placeholder="rahul@gamil.com"
+            id="email"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="amount">Amount</label>
+          <input
+            type="text"
+            placeholder="in Rupees"
+            id="amount"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="custom-select form-control">
+          <label for="donation" class="drop">Donating to : Campaing 1 </label>
+        </div>
+
+        <div class="form-control hi">
+          <div class="checkbox">
+            <input type="checkbox" id="email-recive" />
+            <label for="email-subscribe">Subscribe to newsletter</label>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" id="email-recipt" />
+            <label for="">Mail me recipt</label>
+          </div>
+        </div>
+        <button>Donate</button>
+      </form>
+    </div>
+    <script src="js/donh.js"></script>
+  </body>
+</html>

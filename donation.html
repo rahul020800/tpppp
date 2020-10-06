@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Prayaas | to make change</title>
+    <link rel="icon" href="icons/heartHand.png" />
+    <link rel="stylesheet" href="css/donation.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="don-form">
+      <div class="form-box">
+        <div class="form-detail">
+          <div>
+            <h1>Prayaas</h1>
+          </div>
+          <form action="#" id="form1" method="get">
+            <div class="name-input all">
+              <img src="icons/user.png" alt="Name" class="user-img" />
+              <input
+                required
+                type="text "
+                name="donar-name"
+                id="donar-name"
+                class="inputs-text"
+                autocomplete="off"
+                placeholder="Name"
+                maxlength="32"
+                pattern="[A-Za-z]{4,32}"
+              />
+            </div>
+            <div class="email-input all">
+              <img src="icons/user.png" alt="Name" class="user-img" />
+              <input
+                type="email"
+                name="donar-email"
+                id="donar-email"
+                class="inputs-text"
+                autocomplete="off"
+                placeholder="Email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+              />
+            </div>
+            <div class="email-input all">
+              <img src="icons/rs.svg" alt="Name" class="user-img" />
+              <input
+                type="number"
+                name="donar-amount"
+                id="donar-amount"
+                min="10"
+                max="10000"
+                class="inputs-text"
+                autocomplete="off"
+                placeholder="Amount"
+                required
+              />
+            </div>
+            <div class="drop-input all">
+              <div class="custom-select">
+                <label for="donation">Donating to : Campaing 1</label>
+              </div>
+            </div>
+            <div class="all">
+              <input type="checkbox" id="email-recive" />
+              <label for="email-subscribe">Subscribe to newsletter</label>
+            </div>
+            <div class="all">
+              <input type="checkbox" id="email-recipt" />
+              <label for="">Mail me recipt</label>
+            </div>
+            <div>
+              <button>Donate</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
